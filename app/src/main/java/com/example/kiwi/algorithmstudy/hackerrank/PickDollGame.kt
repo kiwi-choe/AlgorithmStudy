@@ -1,5 +1,7 @@
 package com.example.kiwi.algorithmstudy.hackerrank
 
+import java.util.*
+
 fun solution(board: Array<IntArray>, moves: IntArray): Int {
     var answer = 0
     val basket = arrayListOf(0)
@@ -30,6 +32,29 @@ fun solution(board: Array<IntArray>, moves: IntArray): Int {
     }
 //    println("basket: $basket")
     // row of board loop
+    return answer
+}
+
+// another's solution
+fun otherSolution(board: Array<IntArray>, moves: IntArray): Int {
+    var answer = 0
+    val stack = Stack<Int>()
+
+    moves.forEach {
+        for (i in board.indices) {
+            val colIndex = it - 1
+            if (board[i][colIndex] != 0) {
+                if(stack.isNotEmpty() && stack.peek() == board[i][colIndex]) {
+                    answer +=2
+                    stack.pop()
+                } else {
+                    stack.push(board[i][colIndex])
+                }
+                board[i][colIndex] = 0
+                break
+            }
+        }
+    }
     return answer
 }
 
