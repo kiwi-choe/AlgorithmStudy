@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 fun validateIsUnique(str: String): Boolean {
     if (str.length > 128) return false

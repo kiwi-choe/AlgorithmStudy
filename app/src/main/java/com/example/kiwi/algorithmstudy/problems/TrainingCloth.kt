@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 //fun solution(n: Int, lost: IntArray, reserve: IntArray): Int {
 //    val sameValues = lost.intersect(reserve.toList())

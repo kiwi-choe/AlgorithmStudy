@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 fun solution(s: String): Int {
     var minLength = s.length

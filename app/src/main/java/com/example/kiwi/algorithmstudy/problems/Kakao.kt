@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 import kotlin.collections.*
 import kotlin.io.*

@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 /*
 * 그리디 알고리즘을 한마디로 설명한다면 그 유명한 마시멜로 실험에 비유할 수 있겠다.

@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 fun solution(numbers: IntArray): IntArray {
     val intSet: MutableSet<Int> = mutableSetOf()

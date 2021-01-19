@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 
 fun holloweenSaleSolve(price: Int, discountValue: Int, minValue: Int, budget: Int): Int {

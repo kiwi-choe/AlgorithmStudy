@@ -1,4 +1,4 @@
-package com.example.kiwi.algorithmstudy.hackerrank
+package com.example.kiwi.algorithmstudy.problems
 
 // Complete the sockMerchant function below.
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
