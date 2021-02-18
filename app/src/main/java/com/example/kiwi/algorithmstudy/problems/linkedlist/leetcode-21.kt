@@ -14,6 +14,18 @@ class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
 
+fun appendNode(head: ListNode?, node: ListNode): ListNode {
+    if (head == null) {
+        return node
+    }
+    var cur = head
+    while (cur?.next != null) {
+        cur = cur.next
+    }
+    cur?.next = node
+    return head
+}
+
 // recursive
 fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
     if (l1 == null) return l2
